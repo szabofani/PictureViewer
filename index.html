@@ -2,31 +2,78 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PictureViewer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Három a magyar igazság</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="slideshow-container">
 
-    <div id="PhotoViewer">
-        <div id="Back"></div>
-            <div id="PictureContainer">
-                <img src="" alt="" id="Picture">
-                <div id="description">
-                    
-                      <h1 id="Title">Title</h1>
-                      <p></p>
-                      
-                </div>
-            </div>
-        <div id="Next"></div>
-
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 6</div>
+          <img src="./images/thai1.jpg" style="width:100%">
+          <div class="text"><h1>Thaiföld 1</h1>
+            <p>Thaiföld lakossága közel 69,7 milliós (2020-as becslés)), a fővárosa Bangkok. 30 napot nem meghaladó, turista célú utazás esetén a magyar állampolgároknak nem kell vízum Thaiföldre!</p></div>
+        </div>
         
-    </div>
-    <div id="Thumbnail"></div>
-    
- <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 6</div>
+          <img src="./images/thai2.jpg" style="width:100%">
+          <div class="text"> <h1>Thaiföld 2</h1>
+            <p>Kötelező oltás nincs előírva thaiföldi utazáshoz. Thaiföldön a higiéniai viszonyok jók. Sokkal modernebb ország, mint azt sok magyar utazó első látogatása előtt elképzeli.</p>
+        </div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 6</div>
+          <img src="./images/thai3.jpg" style="width:100%">
+          <div class="text">  <h1>Thaiföld 3</h1>
+            <p>Észak-déli irányban hosszan elnyúló ország lévén egész Thaiföldre nézve nehéz megmondani azt, hogy mi az odautazás optimális időzítése. Függ a válasz attól, hogy a thaiföldi utazás során hová utazunk és milyen céllal.</p>
+        </div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 6</div>
+            <img src="./images/thai4.jpg" style="width:100%">
+            <div class="text"><h1>Thaiföld 4</h1>
+                <p>Európából a legtöbben éppen a főszezon idején (december-február) utaznak Thaiföldre, részben a téli hidegből való menekülés okán, másrészt, mert ezekben a hónapokban a klíma kevésbé csapadékos, és nincs durva hőség.</p>
+            </div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">5 / 6</div>
+            <img src="./images/thai5.jpg" style="width:100%">
+            <div class="text"> <h1>Thaiföld 5</h1>
+                <p>Mert bizony a március és május közötti időszak egész Thaiföldön túlságosan is meleg a mi hazai éghajlathoz szokott szervezetünknek. Június-augusztus is jó időszak Thaiföld meglátogatásához. Szeptemberben és októberben sok az eső.</p>
+            </div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">6 / 6</div>
+            <img src="./images/thai6.jpg" style="width:100%">
+            <div class="text"><h1>Thaiföld 6</h1>
+                <p>A tengerparti nyaralás szempontjából nem árt tudni, hogy ugyanabban a hónapban más a csapadékosság a nyugai Andaman-tengeren lévő oldalon (Phket, Phi Phi, Krabi stb.) és más a keleti Thai (Sziámi)-öböl oldalon (Ko Samui, Ko Phangan stb.)</p>
+            </div>
+          </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" id="first" onclick="currentSlide(1)"></span> 
+          <span class="dot" id="second" onclick="currentSlide(2)"></span> 
+          <span class="dot" id="third" onclick="currentSlide(3)"></span> 
+          <span class="dot" id="fourth" onclick="currentSlide(4)"></span> 
+          <span class="dot" id="fifth" onclick="currentSlide(5)"></span> 
+          <span class="dot" id="sixth" onclick="currentSlide(6)"></span> 
+        </div>
+        
+        
+
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
  <script src="script.js"></script>
 </body>
 </html>
