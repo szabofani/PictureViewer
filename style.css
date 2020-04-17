@@ -1,0 +1,241 @@
+body{
+    font-family: 'Pacifico', cursive;
+    background-color: #99ffbb;
+}
+
+#PhotoViewer{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 900px;
+    height: 450px;
+    box-shadow: #009966 1px 3px 2px 4px;
+    display: flex;
+
+}
+
+#Back, #Next {
+    background-image: url("http://stayathome-syllabus.greenfox.academy/week03/assets/arrow.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #e6fff2;
+    width: 30px;
+    transition: background-color .3s ease-out;
+}
+
+#Back:hover, #Next:hover {
+    background-color:  #076445;
+    width: 35px;
+}
+
+#Next{
+    transform: rotate(180deg);
+}
+
+#PictureContainer {
+    width: 900px;
+    background: 900px 450px;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+#description{
+    width: auto;
+    height: 100px;
+    background-color: #b7f3de;
+    position: relative;
+    top: 300px;
+    
+}
+#transparent{
+    width: auto;
+    height: 100px;
+    opacity: 0.6;
+}
+h1{
+    font-weight: bold;
+    color: rgb(21, 36, 25); 
+    
+}
+
+p{
+    font-weight: bold;
+    color: rgb(21, 36, 25);
+}
+
+#thumbnails {
+    width: 600px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    text-align: center;
+}
+
+.div0 #thumb-title0{
+    visibility: hidden;
+    width: 80px;
+    background-color: #076445 ;
+    border: ivory solid thin;
+    border-radius: 5px;
+    width:80px ;
+    bottom: 100%;
+    left: 50%;
+    text-align: center;
+    padding: 3px;
+    z-index: 1;
+    position: absolute;
+    margin-left: -50px;;
+}
+
+.div0 #thumb-title0::after {
+    content: "";
+    position: absolute;
+    top:100%;
+    left:50%;
+    margin-left: -5px;
+}
+
+.div0:hover #thumb-title0 {
+    visibility: visible;
+}
+.div1 #thumb-title1{
+    visibility: hidden;
+    width: 80px;
+    background-color: #076445 ;
+    border: ivory solid thin;
+    border-radius: 5px;
+    width:80px ;
+    bottom: 100%;
+    left: 50%;
+    text-align: center;
+    padding: 3px;
+    z-index: 1;
+    position: absolute;
+    margin-left: -50px;;
+}
+
+.div1 #thumb-title1::after {
+    content: "";
+    position: absolute;
+    top:100%;
+    left:50%;
+    margin-left: -5px;
+}
+
+.div1:hover #thumb-title1 {
+    visibility: visible;
+}
+.div2 #thumb-title2{
+    visibility: hidden;
+    width: 80px;
+    background-color: #076445 ;
+    border: ivory solid thin;
+    border-radius: 5px;
+    width:80px ;
+    bottom: 100%;
+    left: 50%;
+    text-align: center;
+    padding: 3px;
+    z-index: 1;
+    position: absolute;
+    margin-left: -50px;;
+}
+
+.div2 #thumb-title2::after {
+    content: "";
+    position: absolute;
+    top:100%;
+    left:50%;
+    margin-left: -5px;
+}
+
+.div2:hover #thumb-title2 {
+    visibility: visible;
+}
+.div3 #thumb-title3{
+    visibility: hidden;
+    width: 80px;
+    background-color: #076445 ;
+    border: ivory solid thin;
+    border-radius: 5px;
+    width:80px ;
+    bottom: 100%;
+    left: 50%;
+    text-align: center;
+    padding: 3px;
+    z-index: 1;
+    position: absolute;
+    margin-left: -50px;;
+}
+
+.div3 #thumb-title3::after {
+    content: "";
+    position: absolute;
+    top:100%;
+    left:50%;
+    margin-left: -5px;
+}
+
+.div3:hover #thumb-title3 {
+    visibility: visible;
+}
+.div4 #thumb-title4{
+    visibility: hidden;
+    width: 80px;
+    background-color: #076445 ;
+    border: ivory solid thin;
+    border-radius: 5px;
+    width:80px ;
+    bottom: 100%;
+    left: 50%;
+    text-align: center;
+    padding: 3px;
+    z-index: 1;
+    position: absolute;
+    margin-left: -50px;;
+}
+
+.div4 #thumb-title4::after {
+    content: "";
+    position: absolute;
+    top:100%;
+    left:50%;
+    margin-left: -5px;
+}
+
+.div4:hover #thumb-title4 {
+    visibility: visible;
+}
+.div5 #thumb-title5{
+    visibility: hidden;
+    width: 80px;
+    background-color: #076445 ;
+    border: ivory solid thin;
+    border-radius: 5px;
+    width:80px ;
+    bottom: 100%;
+    left: 50%;
+    text-align: center;
+    padding: 3px;
+    z-index: 1;
+    position: absolute;
+    margin-left: -50px;;
+}
+
+.div5 #thumb-title5::after {
+    content: "";
+    position: absolute;
+    top:100%;
+    left:50%;
+    margin-left: -5px;
+}
+
+.div5:hover #thumb-title5 {
+    visibility: visible;
+}
